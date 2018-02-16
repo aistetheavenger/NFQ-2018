@@ -1,0 +1,35 @@
+body{background-color: #BCE7FD;}
+
+.title{font-family: 'Pacifico', cursive; font-size: 2rem}
+
+img{height: auto; max-width: 100%;}
+
+h1{padding-top: 30px;}
+h2{padding-top: 30px;padding-bottom: 30px}
+
+.container{padding-top: 50px;}
+.main{background-color: #C492B1; }
+.base{background-color: #B0DB43}
+.top{background-color: #12EAEA}
+.frost{background-color: #DB2763}
+
+/*button style*/
+.rounded-pill{border-radius:5rem}
+.btn-primary{background-color:#ee0979;border-color:#ee0979}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover{background-color:#bd0760!important;border-color:#bd0760!important}
+.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(238,9,121,.5)}
+.btn-primary {padding: 20px;}
+
+/*toggle style*/
+.toggle-off{background-color:#ee0979;border-color:#ee0979;padding: 20px;}
+
+#baseCup > img {position: absolute;}
+#baseTop > img{position: absolute;}
+#baseFrost > img {position: absolute;}
+
+.makeorder{background-color: #947EB0; height: 80px; border: none; color: white; font-size: 1rem; padding: 25px; padding-left: 110px}
+.placeorder{background-color: #F8333C; height: 80px; color: white; font-size: 1rem; padding: 25px; padding-left: 110px}
+.placeorder:hover{background-color: red}
+.quantity{background-color: #44AF69}
