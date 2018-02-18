@@ -1,0 +1,50 @@
+body{background-color: #BCE7FD; color: white}
+
+.title{font-family: 'Pacifico', cursive; font-size: 2rem; color: black}
+
+img{height: auto; max-width: 100%}
+
+h2{padding-top: 30px;padding-bottom: 30px}
+
+.container{padding-top: 50px; padding-bottom: 50px}
+.main{background-color: #C492B1}
+.base{background-color: #B0DB43}
+.top{background-color: #12EAEA}
+.frost{background-color: #DB2763}
+
+/*button style*/
+.rounded-pill{border-radius:5rem}
+.btn-primary{background-color:#ee0979;border-color:#ee0979}
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover{background-color:#bd0760;border-color:#bd0760; color: white}
+.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(238,9,121,.5); color: white}
+.btn-primary {padding: 20px}
+.btn a{text-decoration: none; color: white}
+div .rounded-pill{min-width: 100%; margin-top: 30px}
+
+#baseCup > img {position: absolute}
+#baseTop > img{position: absolute}
+#baseFrost > img {position: absolute}
+div#cupTop{position: relative;}
+div#cupFrost{position: relative;}
+div#cupBase{position: relative;}
+
+.quantity{background-color: #44AF69;  min-width: 100%; text-align: center;}
+.quantity input{min-width: 100%; text-align: center}
+
+/*toggle style*/
+.shipping{background-color:#ee0979;border-color:#ee0979}
+.toggle-off{padding-top: 20px; background-color:#ee0979}
+
+.makeorder{background-color: #947EB0; height: 60px; border: none; font-size: 1rem; min-width: 100%; padding-top: 20px}
+div .makeorder p{width: 100%; text-align: center}
+
+.placeorder{background-color: #F8333C; height: 60px; font-size: 1rem; min-width: 100%; padding-top: 20px; text-align: center}
+.placeorder:hover{background-color: red;}
+
+div#feedback{width: 100%}
+
+
+
+
